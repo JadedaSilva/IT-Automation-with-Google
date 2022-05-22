@@ -1,0 +1,8 @@
+def lucky_number(name):
+
+number = int(len(name) * 9)
+pr = "Hello " + name + ". Your lucky number is " + str(number)
+print(str(pr))
+
+print(lucky_number("Kay"))
+print(lucky_number("Cameron"))

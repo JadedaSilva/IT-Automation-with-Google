@@ -1,0 +1,16 @@
+def hint_username(username):
+  if len(username) < 3:
+  print("Invalid username. Must be at least 3 characters long")
+
+
+## Question
+  def is_positive(number):
+    if ___:
+      return ___
+## Answer
+def is_positive(number):
+   if (number > 0):
+       return True
+   else:
+       return None
+print(is_positive(1))

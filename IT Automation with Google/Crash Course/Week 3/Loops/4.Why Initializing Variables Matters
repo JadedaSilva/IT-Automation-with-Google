@@ -1,0 +1,47 @@
+>>> while my_var < 10:
+... print("hello")
+  File "<stdin>", line 2
+    print("hello")
+    ^
+IndentationError: expected an indented block
+>>>  print("hello")
+  File "<stdin>", line 1
+    print("hello")
+    ^
+IndentationError: unexpected indent
+>>> while my_var < 10:
+...  print("hello")
+...  my_var +=1
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'my_var' is not defined
+>>> my_var = 5
+>>> while my_var < 10:
+...  print ("hello")
+...  my_var +=1
+...
+hello
+hello
+hello
+hello
+hello
+
+
+## Questions
+def count_down(start_number):
+  while (current > 0):
+    print(current)
+    current -= 1
+  print("Zero!")
+
+count_down(3)
+
+## Answer
+def count_down(start_number):
+  while (start_number > 0):
+    print(start_number)
+    start_number -= 1
+  print("Zero!")
+
+count_down(3)

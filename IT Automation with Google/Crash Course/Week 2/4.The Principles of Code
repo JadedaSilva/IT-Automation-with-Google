@@ -1,0 +1,15 @@
+# REPLACE THIS STARTER CODE WITH YOUR FUNCTION
+
+def month_days(month, days)
+print(month + str(month_days) + " days.")
+month_days(june_days)
+month_days(july_days)
+
+
+# REPLACE THIS STARTER CODE WITH YOUR FUNCTION
+
+def month_days(month, days):
+    print(month +" has " + str(days) + " days.")
+
+month_days("June", "30")
+month_days("July", "31")

@@ -1,0 +1,6 @@
+print("cat" < "Cat")
+"cat" is larger than "Cat"
+
+print ("Yellow" > "Cyan" and "Brown" > "Magenta")
+
+print(25 > 50 or 1 !=2)
